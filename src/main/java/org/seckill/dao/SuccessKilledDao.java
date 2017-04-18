@@ -2,7 +2,6 @@ package org.seckill.dao;
 
 import org.apache.ibatis.annotations.Param;
 import org.seckill.entity.SuccessKilled;
-import org.springframework.test.context.jdbc.Sql;
 
 /**
  * Created by Winter on 2017/4/18.
@@ -11,6 +10,7 @@ public interface SuccessKilledDao {
 
     /**
      * 插入购买明细, 可过滤重复
+     *
      * @param seckillId
      * @param userPhone
      * @return 插入的行数
@@ -19,6 +19,7 @@ public interface SuccessKilledDao {
 
     /**
      * 根据id查询SuccessKilled, 并携带秒杀产品对象实体
+     *
      * @param seckillId
      * @return
      */
