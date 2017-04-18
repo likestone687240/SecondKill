@@ -1,0 +1,3310 @@
+<dataSource name="MySQL - ue@123.56.41.65">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="ue">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema" />
+    <schema id="3" name="mysql" />
+    <schema id="4" name="slams_ue" />
+    <schema id="5" name="snug" />
+    <schema id="6" name="test" />
+    <table id="7" parent="1" name="tom_active_user" />
+    <table id="8" parent="1" name="tom_activity" />
+    <table id="9" parent="1" name="tom_activity_dept" />
+    <table id="10" parent="1" name="tom_activity_emps_relation" />
+    <table id="11" parent="1" name="tom_activity_exam_info" />
+    <table id="12" parent="1" name="tom_activity_fees" />
+    <table id="13" parent="1" name="tom_activity_property" />
+    <table id="14" parent="1" name="tom_activity_qr" />
+    <table id="15" parent="1" name="tom_admin" />
+    <table id="16" parent="1" name="tom_admin_roles" />
+    <table id="17" parent="1" name="tom_api_user" />
+    <table id="18" parent="1" name="tom_app_error_log" />
+    <table id="19" parent="1" name="tom_app_versions" />
+    <table id="20" parent="1" name="tom_authorities" />
+    <table id="21" parent="1" name="tom_authorities_type" />
+    <table id="22" parent="1" name="tom_authorities_type_role" />
+    <table id="23" parent="1" name="tom_commodity" />
+    <table id="24" parent="1" name="tom_commodity_exchange" />
+    <table id="25" parent="1" name="tom_course_classify" />
+    <table id="26" parent="1" name="tom_course_classify_relation" />
+    <table id="27" parent="1" name="tom_course_comment" />
+    <table id="28" parent="1" name="tom_course_comment_thumb_up" />
+    <table id="29" parent="1" name="tom_course_emp_relation" />
+    <table id="30" parent="1" name="tom_course_learning_record" />
+    <table id="31" parent="1" name="tom_course_section" />
+    <table id="32" parent="1" name="tom_course_sign_in_records" />
+    <table id="33" parent="1" name="tom_course_thumb_up" />
+    <table id="34" parent="1" name="tom_courses" />
+    <table id="35" parent="1" name="tom_dept" />
+    <table id="36" parent="1" name="tom_eb_record" />
+    <table id="37" parent="1" name="tom_emp" />
+    <table id="38" parent="1" name="tom_exam" />
+    <table id="39" parent="1" name="tom_exam_answer_details" />
+    <table id="40" parent="1" name="tom_exam_emp_allocation" />
+    <table id="41" parent="1" name="tom_exam_paper" />
+    <table id="42" parent="1" name="tom_exam_question" />
+    <table id="43" parent="1" name="tom_exam_score" />
+    <table id="44" parent="1" name="tom_exam_topic" />
+    <table id="45" parent="1" name="tom_favorite_course" />
+    <table id="46" parent="1" name="tom_forum_plate" />
+    <table id="47" parent="1" name="tom_forum_post" />
+    <table id="48" parent="1" name="tom_grade_dimension" />
+    <table id="49" parent="1" name="tom_grade_records" />
+    <table id="50" parent="1" name="tom_grp_org_relation" />
+    <table id="51" parent="1" name="tom_interf_log" />
+    <table id="52" parent="1" name="tom_join_exam_record" />
+    <table id="53" parent="1" name="tom_label_class" />
+    <table id="54" parent="1" name="tom_label_class_relation" />
+    <table id="55" parent="1" name="tom_label_emp" />
+    <table id="56" parent="1" name="tom_learntime_log" />
+    <table id="57" parent="1" name="tom_lecture" />
+    <table id="58" parent="1" name="tom_login_auth" />
+    <table id="59" parent="1" name="tom_message_details" />
+    <table id="60" parent="1" name="tom_message_employees" />
+    <table id="61" parent="1" name="tom_messages" />
+    <table id="62" parent="1" name="tom_news" />
+    <table id="63" parent="1" name="tom_news_employees" />
+    <table id="64" parent="1" name="tom_number_record" />
+    <table id="65" parent="1" name="tom_operate_log" />
+    <table id="66" parent="1" name="tom_org" />
+    <table id="67" parent="1" name="tom_org_groups" />
+    <table id="68" parent="1" name="tom_post" />
+    <table id="69" parent="1" name="tom_post_comment" />
+    <table id="70" parent="1" name="tom_post_comment_praise" />
+    <table id="71" parent="1" name="tom_post_favor" />
+    <table id="72" parent="1" name="tom_post_praise" />
+    <table id="73" parent="1" name="tom_question_bank" />
+    <table id="74" parent="1" name="tom_question_classification" />
+    <table id="75" parent="1" name="tom_retaking_exam" />
+    <table id="76" parent="1" name="tom_role" />
+    <table id="77" parent="1" name="tom_role_authorities" />
+    <table id="78" parent="1" name="tom_role_scopes" />
+    <table id="79" parent="1" name="tom_rolling_picture" />
+    <table id="80" parent="1" name="tom_rolling_picture_record" />
+    <table id="81" parent="1" name="tom_section_learning_record" />
+    <table id="82" parent="1" name="tom_task_courses_relation" />
+    <table id="83" parent="1" name="tom_task_exam_paper_relation" />
+    <table id="84" parent="1" name="tom_task_package" />
+    <table id="85" parent="1" name="tom_test" />
+    <table id="86" parent="1" name="tom_topic" />
+    <table id="87" parent="1" name="tom_topic_option" />
+    <table id="88" parent="1" name="tom_user_info" />
+    <table id="89" parent="1" name="tom_user_log" />
+    <view id="90" parent="1" name="tom_vi_activity_fee">
+      <comment>VIEW</comment>
+    </view>
+    <view id="91" parent="1" name="tom_vi_exam_emp_detail">
+      <comment>VIEW</comment>
+    </view>
+    <column id="92" parent="7" name="CODE">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="93" parent="7" name="CREATE_DATE">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="94" parent="8" name="ACTIVITY_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="95" parent="8" name="ACTIVITY_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="96" parent="8" name="ACTIVITY_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="97" parent="8" name="INTRODUCTION">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="98" parent="8" name="PROTOCOL">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="99" parent="8" name="PROTOCOL_START_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="100" parent="8" name="PROTOCOL_END_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="101" parent="8" name="TRAIN_FEE">
+      <data-type>double(8,2)|0</data-type>
+    </column>
+    <column id="102" parent="8" name="NEED_APPLY">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="103" parent="8" name="NUMBER_OF_PARTICIPANTS">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="104" parent="8" name="STAFF_LEVELS">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="105" parent="8" name="CITY">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="106" parent="8" name="ADMINS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="107" parent="8" name="APPLICATION_START_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="108" parent="8" name="APPLICATION_DEADLINE">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="109" parent="8" name="ACTIVITY_START_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="110" parent="8" name="ACTIVITY_END_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="111" parent="8" name="DEPTS">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="112" parent="8" name="ACT_PICTURE">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="113" parent="8" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="114" parent="8" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="115" parent="8" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="116" parent="8" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="117" parent="8" name="ADMIN_NAMES">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="118" parent="8" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <index id="119" parent="8" name="ACTIVITY_NUMBER_CONS">
+      <columns>ACTIVITY_NUMBER</columns>
+      <desc-columns />
+      <unique>1</unique>
+    </index>
+    <key id="120" parent="8" name="PRIMARY">
+      <columns>ACTIVITY_ID</columns>
+      <primary>1</primary>
+    </key>
+    <key id="121" parent="8" name="ACTIVITY_NUMBER_CONS">
+      <columns>ACTIVITY_NUMBER</columns>
+      <underlying-index>ACTIVITY_NUMBER_CONS</underlying-index>
+    </key>
+    <column id="122" parent="9" name="ACTIVITY_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="123" parent="9" name="HEADER_CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="124" parent="9" name="CODE">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="125" parent="9" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="126" parent="9" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="127" parent="9" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="128" parent="9" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="129" parent="9" name="STATUS">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="130" parent="9" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="131" parent="9" name="PUSH_STATUS">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="132" parent="10" name="ACTIVITY_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="133" parent="10" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="134" parent="10" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="135" parent="10" name="APPLY_STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="136" parent="10" name="APPLY_TYPE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="137" parent="10" name="IS_REQUIRED">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="138" parent="10" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="139" parent="10" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="140" parent="10" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="141" parent="10" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="142" parent="10" name="PRIMARY">
+      <columns>ACTIVITY_ID
+CODE</columns>
+      <primary>1</primary>
+    </key>
+    <column id="143" parent="11" name="RETAKING_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="144" parent="11" name="ACTIVITY_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="145" parent="11" name="EXAM_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="146" parent="11" name="RETAKING_SORT">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="147" parent="11" name="RETAKING_EXAM_BEGIN_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="148" parent="11" name="RETAKING_EXAM_END_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="149" parent="11" name="PRIMARY">
+      <columns>RETAKING_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="150" parent="12" name="ACTIVITY_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="151" parent="12" name="FEE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="152" parent="12" name="FEE_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(60)|0</data-type>
+    </column>
+    <column id="153" parent="12" name="FEE">
+      <mandatory>1</mandatory>
+      <data-type>double(8,2)|0</data-type>
+    </column>
+    <column id="154" parent="12" name="REMARK">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="155" parent="12" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="156" parent="12" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="157" parent="12" name="CREATE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="158" parent="12" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="159" parent="12" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="160" parent="12" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="161" parent="12" name="PRIMARY">
+      <columns>FEE_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="162" parent="13" name="ACTIVITY_ID">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="163" parent="13" name="PACKAGE_ID">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="164" parent="13" name="SORT">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="165" parent="13" name="START_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="166" parent="13" name="END_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="167" parent="13" name="LECTURERS">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="168" parent="13" name="COURSE_ID">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="169" parent="13" name="COURSE_ADDRESS">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="170" parent="13" name="COURSE_TIME">
+      <data-type>double(8,2)|0</data-type>
+    </column>
+    <column id="171" parent="13" name="UNIT_PRICE">
+      <data-type>double(8,2)|0</data-type>
+    </column>
+    <column id="172" parent="13" name="TOTAL_PRICE">
+      <data-type>double(8,2)|0</data-type>
+    </column>
+    <column id="173" parent="13" name="EXAM_NAME">
+      <data-type>varchar(60)|0</data-type>
+    </column>
+    <column id="174" parent="13" name="EXAM_ID">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="175" parent="13" name="EXAM_TIME">
+      <data-type>double(8,2)|0</data-type>
+    </column>
+    <column id="176" parent="13" name="RETAKING_EXAM_TIMES">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="177" parent="13" name="OFFLINE_EXAM">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="178" parent="13" name="PRE_TASK">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="179" parent="13" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="180" parent="13" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="181" parent="13" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="182" parent="13" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="183" parent="13" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="184" parent="13" name="SIGN_IN_TWO_DIMENSION_CODE">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="185" parent="13" name="GRADE_TWO_DIMENSION_CODE">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="186" parent="14" name="ACTIVITY_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="187" parent="14" name="QR_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="188" parent="14" name="QR_PATH">
+      <mandatory>1</mandatory>
+      <data-type>varchar(300)|0</data-type>
+    </column>
+    <column id="189" parent="14" name="QR_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <key id="190" parent="14" name="PRIMARY">
+      <columns>QR_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="191" parent="15" name="ADMIN_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="192" parent="15" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="193" parent="15" name="NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="194" parent="15" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="195" parent="15" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="196" parent="15" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="197" parent="15" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="198" parent="15" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="199" parent="15" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="200" parent="15" name="PRIMARY">
+      <columns>ADMIN_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="201" parent="16" name="ADMIN_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="202" parent="16" name="ROLE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="203" parent="16" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="204" parent="16" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="205" parent="16" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="206" parent="16" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="207" parent="16" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="208" parent="17" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="209" parent="17" name="TOKEN">
+      <mandatory>1</mandatory>
+      <data-type>varchar(40)|0</data-type>
+    </column>
+    <column id="210" parent="17" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="211" parent="17" name="CREATE_DATE">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="212" parent="17" name="NAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="213" parent="17" name="VALIDITY">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="214" parent="17" name="PRIMARY">
+      <columns>ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="215" parent="18" name="ERROR_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="216" parent="18" name="PLATFORM">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="217" parent="18" name="VERSION_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="218" parent="18" name="EQUIPMENT_NAME">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="219" parent="18" name="SYSTEM_VERSION">
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="220" parent="18" name="ERROR_DETAILS">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="221" parent="18" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="222" parent="18" name="PRIMARY">
+      <columns>ERROR_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="223" parent="19" name="V_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="224" parent="19" name="PLATFORM">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="225" parent="19" name="VERSION_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="226" parent="19" name="IS_NOW_VERSION">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="227" parent="19" name="DOWNLOAD_URL">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="228" parent="19" name="FORCE_UPDATE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="229" parent="19" name="VERSION_DESC">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="230" parent="19" name="CREATER">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="231" parent="19" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="232" parent="19" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="233" parent="19" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="234" parent="19" name="PRIMARY">
+      <columns>V_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="235" parent="20" name="AUTHORITY_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="236" parent="20" name="AUTHORITY_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="237" parent="20" name="AUTHORITY_TYPE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="238" parent="20" name="AUTHORITY_URL">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="239" parent="20" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="240" parent="20" name="METHOD">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="241" parent="20" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="242" parent="20" name="PRIMARY">
+      <columns>AUTHORITY_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="243" parent="21" name="AUTHORITY_TYPE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="244" parent="21" name="AUTHORITY_TYPE_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="245" parent="21" name="AUTHORITY_ID">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="246" parent="21" name="TYPE_FUNCTION">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <key id="247" parent="21" name="PRIMARY">
+      <columns>AUTHORITY_TYPE_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="248" parent="22" name="AUTHORITY_TYPE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="249" parent="22" name="ROLE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="250" parent="22" name="CREATE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="251" parent="23" name="COMMODITY_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="252" parent="23" name="COMMODITY_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="253" parent="23" name="COMMODITY_PRICE">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="254" parent="23" name="COMMODITY_NUMBER">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="255" parent="23" name="COMMODITY_PICTURE">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="256" parent="23" name="COMMODITY_SYNOPSIS">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="257" parent="23" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="258" parent="23" name="ADMINS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="259" parent="23" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="260" parent="23" name="LAST_OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="261" parent="23" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="262" parent="23" name="ARAYACAK">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="263" parent="23" name="POST">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="264" parent="23" name="ARAYACAK_ADDRESS">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="265" parent="23" name="COMMODITY_GROUNDING">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="266" parent="23" name="ADMIN_NAMES">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="267" parent="23" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="268" parent="23" name="PRIMARY">
+      <columns>COMMODITY_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="269" parent="24" name="EMP_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="270" parent="24" name="EMP_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="271" parent="24" name="COMMODITY_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="272" parent="24" name="COMMODITY_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="273" parent="24" name="CDKEY">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="274" parent="24" name="POST_METHOD">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="275" parent="24" name="EXCHANGE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="276" parent="24" name="EXPRESS_COMPANY">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="277" parent="24" name="EXPRESS_NUMBER">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="278" parent="24" name="EXCHANGE_STATE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="279" parent="24" name="PHONE_NUMBER">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="280" parent="24" name="NAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="281" parent="24" name="SEX">
+      <data-type>varchar(19)|0</data-type>
+    </column>
+    <column id="282" parent="24" name="ADDRESS">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="283" parent="24" name="CODE">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="284" parent="25" name="CLASSIFY_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="285" parent="25" name="CLASSIFY_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="286" parent="25" name="CLASSIFY_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="287" parent="25" name="PARENT_CLASSIFY_ID">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="288" parent="25" name="CLASSIFY_INTRODUCTION">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="289" parent="25" name="STATUS">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="290" parent="25" name="ADMINS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="291" parent="25" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="292" parent="25" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="293" parent="25" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="294" parent="25" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="295" parent="25" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="296" parent="25" name="OPERATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="297" parent="25" name="ADMIN_NAMES">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="298" parent="25" name="CLASSIFY_NAME_EN">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="299" parent="25" name="CLASSIFY_INTRODUCTION_EN">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <key id="300" parent="25" name="PRIMARY">
+      <columns>CLASSIFY_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="301" parent="26" name="COURSE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="302" parent="26" name="CLASSIFY_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="303" parent="26" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="304" parent="26" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="305" parent="26" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="306" parent="26" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="307" parent="26" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="308" parent="26" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="309" parent="26" name="OPERATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="310" parent="27" name="COURSE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="311" parent="27" name="COURSE_COMMENT_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="312" parent="27" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="313" parent="27" name="NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="314" parent="27" name="THUMB_UP_NUMBER">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="315" parent="27" name="COURSE_COMMENT_CONTENT">
+      <mandatory>1</mandatory>
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="316" parent="27" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="317" parent="27" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="318" parent="27" name="ANONYMITY">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <key id="319" parent="27" name="PRIMARY">
+      <columns>COURSE_COMMENT_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="320" parent="28" name="COURSE_COMMENT_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="321" parent="28" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="322" parent="28" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="323" parent="28" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="324" parent="29" name="COURSE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="325" parent="29" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="326" parent="29" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="327" parent="29" name="FINISH_STATUS">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="328" parent="29" name="FINISH_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="329" parent="29" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="330" parent="29" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="331" parent="29" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="332" parent="29" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="333" parent="29" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="334" parent="29" name="OPERATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="335" parent="30" name="COURSE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="336" parent="30" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="337" parent="30" name="LEARNING_DATE">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="338" parent="31" name="SECTION_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="339" parent="31" name="COURSE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="340" parent="31" name="SECTION_ADDRESS">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="341" parent="31" name="SECTION_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(600)|0</data-type>
+    </column>
+    <column id="342" parent="31" name="SECTION_TYPE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="343" parent="31" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="344" parent="31" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="345" parent="31" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="346" parent="31" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="347" parent="31" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="348" parent="31" name="SECTION_SIZE">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="349" parent="31" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="350" parent="31" name="OPERATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="351" parent="31" name="SECTION_DETAILS">
+      <data-type>longtext|0</data-type>
+    </column>
+    <key id="352" parent="31" name="PRIMARY">
+      <columns>SECTION_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="353" parent="32" name="COURSE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="354" parent="32" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="355" parent="32" name="CREATE_DATE">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="356" parent="33" name="COURSE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="357" parent="33" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="358" parent="33" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="359" parent="33" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <key id="360" parent="33" name="PRIMARY">
+      <columns>COURSE_ID
+CODE</columns>
+      <primary>1</primary>
+    </key>
+    <column id="361" parent="34" name="COURSE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="362" parent="34" name="COURSE_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="363" parent="34" name="COURSE_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="364" parent="34" name="COURSE_ONLINE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="365" parent="34" name="COURSE_INTRODUCTION">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="366" parent="34" name="COURSE_TYPE">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="367" parent="34" name="E_CURRENCY">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="368" parent="34" name="COURSE_GRADE_DIMENSIONS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="369" parent="34" name="LECTURER_GRADE_DIMENSIONS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="370" parent="34" name="LECTURERS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="371" parent="34" name="COURSE_IMG">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="372" parent="34" name="COURSE_DOWNLOADABLE">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="373" parent="34" name="IS_EXCELLENT_COURSE">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="374" parent="34" name="STATUS">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="375" parent="34" name="OPEN_COMMENT">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="376" parent="34" name="OPEN_COURSE">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="377" parent="34" name="ADMINS">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="378" parent="34" name="VIEWERS">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="379" parent="34" name="THUMB_UP_COUNT">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="380" parent="34" name="COMMENT_COUNT">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="381" parent="34" name="RATETIMES">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="382" parent="34" name="COURSE_AVERAGE">
+      <data-type>double(8,2)|0</data-type>
+    </column>
+    <column id="383" parent="34" name="TOT_SCORE">
+      <data-type>double(8,2)|0</data-type>
+    </column>
+    <column id="384" parent="34" name="LECTURER_AVERAGE">
+      <data-type>double(8,2)|0</data-type>
+    </column>
+    <column id="385" parent="34" name="COURSE_TIMES">
+      <data-type>double(8,2)|0</data-type>
+    </column>
+    <column id="386" parent="34" name="SIGN_IN_TWO_DIMENSION_CODE">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="387" parent="34" name="GRADE_TWO_DIMENSION_CODE">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="388" parent="34" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="389" parent="34" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="390" parent="34" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="391" parent="34" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="392" parent="34" name="ADMIN_NAMES">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="393" parent="34" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="394" parent="34" name="OPERATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="395" parent="34" name="PRIMARY">
+      <columns>COURSE_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="396" parent="35" name="NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="397" parent="35" name="CODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="398" parent="35" name="INNERCODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="399" parent="35" name="PK_DEPT">
+      <mandatory>1</mandatory>
+      <data-type>int(100)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="400" parent="35" name="TOPCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="401" parent="35" name="TOPNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="402" parent="35" name="PK_FATHERORG">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="403" parent="35" name="ORGCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="404" parent="35" name="ORGNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="405" parent="35" name="PK_ORG">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="406" parent="35" name="TYPECODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="407" parent="35" name="TYPENAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="408" parent="35" name="PK_TYPEDEFDOC">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="409" parent="35" name="HRCANCELED">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="410" parent="35" name="PK_PSNDOC">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="411" parent="35" name="PSNCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="412" parent="35" name="PSNNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="413" parent="35" name="CREATIONTIME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="414" parent="35" name="MODIFIEDTIME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="415" parent="35" name="LEVELCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="416" parent="35" name="LEVELNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="417" parent="35" name="PK_LEVELDEFDOC">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="418" parent="35" name="JOBCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="419" parent="35" name="JOBNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="420" parent="35" name="PK_JOBDEPTDOC">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="421" parent="35" name="CITYCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="422" parent="35" name="CITYNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <key id="423" parent="35" name="PRIMARY">
+      <columns>PK_DEPT</columns>
+      <primary>1</primary>
+    </key>
+    <column id="424" parent="36" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="425" parent="36" name="UPDATE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="426" parent="36" name="EXCHANGE_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="427" parent="36" name="ROAD">
+      <mandatory>1</mandatory>
+      <data-type>varchar(2)|0</data-type>
+    </column>
+    <column id="428" parent="37" name="NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="429" parent="37" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="430" parent="37" name="ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="431" parent="37" name="PK_PSNCL">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="432" parent="37" name="PSNCLCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="433" parent="37" name="PSNCLCNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="434" parent="37" name="SHORTNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="435" parent="37" name="JOBGLBDEF17">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="436" parent="37" name="TOPCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="437" parent="37" name="TOPNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="438" parent="37" name="MODIFIEDTIME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="439" parent="37" name="BEGINDATE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="440" parent="37" name="ENDDATE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="441" parent="37" name="SECRET_EMAIL">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="442" parent="37" name="OFFICEPHONE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="443" parent="37" name="ORGCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="444" parent="37" name="ORGNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="445" parent="37" name="DEPTCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="446" parent="37" name="DEPTNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="447" parent="37" name="DEPTTOPCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="448" parent="37" name="DEPTTOPNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="449" parent="37" name="CITYCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="450" parent="37" name="POSTCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="451" parent="37" name="POSTNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="452" parent="37" name="BANKCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="453" parent="37" name="BANKNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="454" parent="37" name="BANKTYPECODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="455" parent="37" name="BANKTYPENAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="456" parent="37" name="ISMAINJOB">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="457" parent="37" name="CREATIONTIME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="458" parent="37" name="BIRTHDATE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="459" parent="37" name="SEX">
+      <data-type>varchar(19)|0</data-type>
+    </column>
+    <column id="460" parent="37" name="IDTYPE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="461" parent="37" name="PK_POST">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="462" parent="37" name="JOBCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="463" parent="37" name="JOBNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="464" parent="37" name="POSTSTAT">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="465" parent="37" name="HIENDFLAG">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="466" parent="37" name="PK_PSNJOB">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="467" parent="37" name="PK_BASPOST">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="468" parent="37" name="MOBILE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="469" parent="37" name="ORGENDFLAG">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="470" parent="37" name="PK_DEPTPSN">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="471" parent="37" name="DEPTPSNCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="472" parent="37" name="DEPTPSNNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="473" parent="37" name="PK_PSNDOC">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="474" parent="37" name="ONEDEPTCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="475" parent="37" name="ONEDEPTNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="476" parent="37" name="CITYNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="477" parent="37" name="JOBENDFLAG">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="478" parent="37" name="JOBLASTFLAG">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="479" parent="37" name="ORGLASTFLAG">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="480" parent="37" name="JOBGLBDEF10">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="481" parent="37" name="PK_ORG">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="482" parent="37" name="PK_DEPT">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="483" parent="37" name="ONE_DEPT_PK">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="484" parent="37" name="JOBG1BDEF20">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="485" parent="37" name="JOBG1BDEF21">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="486" parent="37" name="JOBG1BDEF22">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="487" parent="37" name="JOBG1BDEF23">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="488" parent="37" name="JOBG1BDEF24">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="489" parent="37" name="JOBG1BDEF25">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="490" parent="37" name="PK_JOBRANK">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="491" parent="37" name="PK_JOBGRADE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="492" parent="37" name="GLBDEF24">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="493" parent="37" name="ORGBEGINDATE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="494" parent="37" name="ORGENDDATE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="495" parent="37" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="496" parent="37" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="497" parent="37" name="PRIMARY">
+      <columns>CODE</columns>
+      <primary>1</primary>
+    </key>
+    <column id="498" parent="38" name="EXAM_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="499" parent="38" name="EXAM_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="500" parent="38" name="EXAM_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="501" parent="38" name="BEGIN_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="502" parent="38" name="END_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="503" parent="38" name="EXAM_PAPER_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="504" parent="38" name="EXAM_TIME">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="505" parent="38" name="RETAKING_EXAM_COUNT">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="506" parent="38" name="EXAM_TYPE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="507" parent="38" name="OFFLINE_EXAM">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="508" parent="38" name="EXAM_ADDRESS">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="509" parent="38" name="ADMINS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="510" parent="38" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="511" parent="38" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="512" parent="38" name="LAST_OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="513" parent="38" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="514" parent="38" name="ADMIN_NAMES">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="515" parent="38" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="516" parent="38" name="LAST_OPERATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="517" parent="38" name="PRIMARY">
+      <columns>EXAM_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="518" parent="39" name="EXAM_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="519" parent="39" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="520" parent="39" name="TOPIC_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="521" parent="39" name="TOPIC">
+      <mandatory>1</mandatory>
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="522" parent="39" name="SCORE">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="523" parent="39" name="EMP_ANSWER">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="524" parent="39" name="SUBJECTIVE_ITEM_ANSWER">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="525" parent="39" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="526" parent="39" name="STATUS">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="527" parent="39" name="RIGHT_STATE">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="528" parent="40" name="EXAM_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="529" parent="40" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="530" parent="40" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="531" parent="41" name="EXAM_PAPER_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="532" parent="41" name="EXAM_PAPER_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="533" parent="41" name="EXAM_PAPER_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="534" parent="41" name="EXAM_PAPER_TYPE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="535" parent="41" name="EXAM_PAPER_PICTURE">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="536" parent="41" name="EXAM_TIME">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="537" parent="41" name="FULL_MARK">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="538" parent="41" name="PASS_MARK">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="539" parent="41" name="TEST_QUESTION_COUNT">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="540" parent="41" name="PASS_EB">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="541" parent="41" name="NOT_PASS_EB">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="542" parent="41" name="SHOW_SCORE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="543" parent="41" name="SHOW_QUALIFIED_STANDARD">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="544" parent="41" name="IMMEDIATELY_SHOW">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="545" parent="41" name="SORTS">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="546" parent="41" name="ADMINS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="547" parent="41" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="548" parent="41" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="549" parent="41" name="LAST_OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="550" parent="41" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="551" parent="41" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="552" parent="41" name="ADMIN_NAMES">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="553" parent="41" name="LAST_OPERATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="554" parent="41" name="PRIMARY">
+      <columns>EXAM_PAPER_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="555" parent="42" name="EXAM_PAPER_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="556" parent="42" name="QUESTION_BANK_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="557" parent="42" name="SORT">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="558" parent="42" name="QUESTION_TYPE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="559" parent="42" name="COUNT">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="560" parent="42" name="SCORE">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="561" parent="42" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="562" parent="42" name="QUESTION_BANK_NAME">
+      <data-type>varchar(600)|0</data-type>
+    </column>
+    <column id="563" parent="43" name="EXAM_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="564" parent="43" name="EMP_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="565" parent="43" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="566" parent="43" name="GRADE_STATE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(301)|0</data-type>
+    </column>
+    <column id="567" parent="43" name="EXAM_COUNT">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="568" parent="43" name="TOTAL_POINTS">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="569" parent="43" name="EXAM_TOTAL_TIME">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="570" parent="43" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="571" parent="43" name="RIGHT_NUMBE">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="572" parent="43" name="WRONG_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="573" parent="43" name="ACCURACY">
+      <mandatory>1</mandatory>
+      <data-type>float(8,2)|0</data-type>
+    </column>
+    <column id="574" parent="44" name="EXAM_PAPER_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="575" parent="44" name="TOPIC_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="576" parent="44" name="SORT">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="577" parent="44" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="578" parent="45" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="579" parent="45" name="COURSE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="580" parent="45" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="581" parent="45" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <key id="582" parent="45" name="PRIMARY">
+      <columns>CODE
+COURSE_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="583" parent="46" name="PLATE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="584" parent="46" name="PLATE_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="585" parent="46" name="PLATE_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="586" parent="46" name="PLATE_PICTURE">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="587" parent="46" name="PLATE_DESCRIPTION">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="588" parent="46" name="POST_COUNT">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="589" parent="46" name="ADMINS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="590" parent="46" name="CREATER">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="591" parent="46" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="592" parent="46" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="593" parent="46" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="594" parent="46" name="DELETED">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="595" parent="46" name="ADMIN_NAMES">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="596" parent="46" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="597" parent="46" name="PRIMARY">
+      <columns>PLATE_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="598" parent="47" name="POST_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="599" parent="47" name="PLATE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="600" parent="47" name="POST_TITLE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="601" parent="47" name="POST_PICTURE">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="602" parent="47" name="POST_DETAILS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="603" parent="47" name="POST_STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="604" parent="47" name="COMMENT_COUNT">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="605" parent="47" name="PRAISE_COUNT">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="606" parent="47" name="VIEW_COUNT">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="607" parent="47" name="EMP_CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="608" parent="47" name="CREATE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="609" parent="47" name="DELETED">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <key id="610" parent="47" name="PRIMARY">
+      <columns>POST_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="611" parent="48" name="GRADE_DIMENSION_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="612" parent="48" name="GRADE_DIMENSION_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="613" parent="48" name="GRADE_DIMENSION_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="614" parent="48" name="GRADE_DIMENSION_TYPE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="615" parent="48" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="616" parent="48" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="617" parent="48" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="618" parent="48" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="619" parent="48" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="620" parent="48" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="621" parent="48" name="OPERATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="622" parent="48" name="GRADE_DIMENSION_NAME_EN">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <key id="623" parent="48" name="PRIMARY">
+      <columns>GRADE_DIMENSION_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="624" parent="49" name="COURSE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="625" parent="49" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="626" parent="49" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="627" parent="49" name="GRADE_TYPE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="628" parent="49" name="GRADE_DIMENSION_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="629" parent="49" name="SCORE">
+      <mandatory>1</mandatory>
+      <data-type>double(8,2)|0</data-type>
+    </column>
+    <column id="630" parent="50" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="631" parent="50" name="GRP_CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="632" parent="50" name="ADMINISTRATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="633" parent="50" name="PHONE">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="634" parent="50" name="EMAIL">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="635" parent="50" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="636" parent="51" name="LOG_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="637" parent="51" name="CODE">
+      <data-type>varchar(60)|0</data-type>
+    </column>
+    <column id="638" parent="51" name="LOG_INFO">
+      <data-type>varchar(4000)|0</data-type>
+    </column>
+    <column id="639" parent="51" name="INTERFACE_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="640" parent="51" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="641" parent="51" name="PRIMARY">
+      <columns>LOG_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="642" parent="52" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="643" parent="52" name="EXAMID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="644" parent="52" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="645" parent="53" name="CLASS_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="646" parent="53" name="CLASS_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="647" parent="53" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="648" parent="53" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="649" parent="53" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="650" parent="53" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="651" parent="53" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="652" parent="53" name="ADMINS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="653" parent="53" name="ADMIN_NAMES">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <key id="654" parent="53" name="PRIMARY">
+      <columns>CLASS_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="655" parent="54" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="656" parent="54" name="CLASS_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="657" parent="54" name="CLASS_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="658" parent="54" name="TAG_ID">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="659" parent="54" name="TAG_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="660" parent="54" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="661" parent="54" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="662" parent="54" name="PRIMARY">
+      <columns>ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="663" parent="55" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="664" parent="55" name="TAG_ID">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="665" parent="55" name="TAG_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="666" parent="55" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="667" parent="55" name="NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="668" parent="55" name="CITYNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="669" parent="55" name="SECRET_EMAIL">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="670" parent="55" name="MOBILE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="671" parent="55" name="ORGCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="672" parent="55" name="ORGNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="673" parent="55" name="DEPTCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="674" parent="55" name="DEPTNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="675" parent="55" name="ONEDEPTCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="676" parent="55" name="ONEDEPTNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="677" parent="55" name="SEX">
+      <data-type>varchar(19)|0</data-type>
+    </column>
+    <column id="678" parent="55" name="POSTSTAT">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="679" parent="55" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="680" parent="55" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="681" parent="55" name="PRIMARY">
+      <columns>ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="682" parent="56" name="LOG_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="683" parent="56" name="TIME">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="684" parent="56" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="685" parent="56" name="NAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="686" parent="56" name="COURSE_ID">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="687" parent="56" name="SECTION_ID">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="688" parent="56" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="689" parent="56" name="USERAGENT">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <key id="690" parent="56" name="PRIMARY">
+      <columns>LOG_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="691" parent="57" name="LECTURER_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="692" parent="57" name="LECTURER_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="693" parent="57" name="LECTURER_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="694" parent="57" name="LECTURER_TYPE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="695" parent="57" name="CODE">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="696" parent="57" name="LECTURER_GRADE">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="697" parent="57" name="IS_INTERNAL_LECTURER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="698" parent="57" name="LECTURER_IMG">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="699" parent="57" name="LECTURER_INTRODUCTION">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="700" parent="57" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="701" parent="57" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="702" parent="57" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="703" parent="57" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="704" parent="57" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="705" parent="57" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="706" parent="57" name="OPERATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="707" parent="57" name="PRIMARY">
+      <columns>LECTURER_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="708" parent="58" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="709" parent="58" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="710" parent="58" name="code">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="711" parent="58" name="qr_path">
+      <mandatory>1</mandatory>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="712" parent="58" name="status">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+      <default-expression>'N'</default-expression>
+    </column>
+    <key id="713" parent="58" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="714" parent="59" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(4)|0</data-type>
+    </column>
+    <column id="715" parent="59" name="code">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="716" parent="59" name="name">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="717" parent="59" name="MESSAGE">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="718" parent="59" name="status">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="719" parent="59" name="deleted">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="720" parent="59" name="operater">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="721" parent="59" name="update_time">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="722" parent="59" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="723" parent="60" name="EMP_CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(2300)|0</data-type>
+    </column>
+    <column id="724" parent="60" name="MESSAGE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="725" parent="60" name="CREATE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="726" parent="60" name="IS_VIEW">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="727" parent="61" name="MESSAGE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="728" parent="61" name="MESSAGE_TITLE">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="729" parent="61" name="CREATE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="730" parent="61" name="VIEW_COUNT">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="731" parent="61" name="MESSAGE_DETAILS">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="732" parent="61" name="MESSAGE_TYPE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="733" parent="61" name="SEND_TO_APP">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="734" parent="61" name="SEND_TO_EMAIL">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="735" parent="61" name="SEND_TO_PHONE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="736" parent="61" name="PC_URL">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="737" parent="61" name="APP_URL">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <key id="738" parent="61" name="PRIMARY">
+      <columns>MESSAGE_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="739" parent="62" name="NEWS_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="740" parent="62" name="NEWS_TITLE">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="741" parent="62" name="NEWS_PICTURE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="742" parent="62" name="PK_ORG">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="743" parent="62" name="RELEASE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="744" parent="62" name="NEWS_DETAILS">
+      <mandatory>1</mandatory>
+      <data-type>longtext|0</data-type>
+    </column>
+    <column id="745" parent="62" name="VIEW_COUNT">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="746" parent="62" name="IS_RELEASE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="747" parent="62" name="ADMINS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="748" parent="62" name="CREATER">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="749" parent="62" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="750" parent="62" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="751" parent="62" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="752" parent="62" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="753" parent="62" name="RELEASER">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="754" parent="62" name="NEWS_PICTURE_EN">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="755" parent="62" name="NEWS_DETAILS_EN">
+      <mandatory>1</mandatory>
+      <data-type>longtext|0</data-type>
+    </column>
+    <key id="756" parent="62" name="PRIMARY">
+      <columns>NEWS_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="757" parent="63" name="NEWS_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="758" parent="63" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="759" parent="63" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="760" parent="63" name="IS_VIEW">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="761" parent="64" name="NUMBER_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="762" parent="64" name="BELONG">
+      <mandatory>1</mandatory>
+      <data-type>varchar(2)|0</data-type>
+    </column>
+    <column id="763" parent="64" name="TAIL_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="764" parent="64" name="CREATE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="765" parent="64" name="PRIMARY">
+      <columns>NUMBER_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="766" parent="65" name="LOG_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="767" parent="65" name="EMP_CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="768" parent="65" name="EMP_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="769" parent="65" name="CREATE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="770" parent="65" name="PPERATING_MODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="771" parent="65" name="RECORD_DETAILS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <key id="772" parent="65" name="PRIMARY">
+      <columns>LOG_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="773" parent="66" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="774" parent="66" name="NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="775" parent="66" name="PK_ORG">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="776" parent="66" name="PK_FATHERORG">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="777" parent="66" name="ENABLESTATE">
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <key id="778" parent="66" name="PRIMARY">
+      <columns>CODE</columns>
+      <primary>1</primary>
+    </key>
+    <column id="779" parent="67" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="780" parent="67" name="NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="781" parent="67" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="782" parent="67" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="783" parent="67" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="784" parent="67" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="785" parent="67" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="786" parent="67" name="PRIMARY">
+      <columns>CODE</columns>
+      <primary>1</primary>
+    </key>
+    <column id="787" parent="68" name="POSTCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="788" parent="68" name="POSTNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="789" parent="68" name="PK_POST">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="790" parent="68" name="HRCANCELED">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="791" parent="68" name="ORGCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="792" parent="68" name="ORGNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="793" parent="68" name="PK_ORG">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="794" parent="68" name="DEPTNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="795" parent="68" name="DEPTCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="796" parent="68" name="PK_DEPT">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="797" parent="68" name="CREATIONTIME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="798" parent="68" name="MODIFIEDTIME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="799" parent="68" name="GLBDEF2">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="800" parent="68" name="GLBDEF3">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="801" parent="68" name="GLBDEF4">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="802" parent="68" name="GLBDEF5">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="803" parent="68" name="TDPOSTCODE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="804" parent="68" name="TDPOSTCNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="805" parent="68" name="PK_POSTSTD">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <key id="806" parent="68" name="PRIMARY">
+      <columns>PK_POST</columns>
+      <primary>1</primary>
+    </key>
+    <column id="807" parent="69" name="POST_COMMENT_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="808" parent="69" name="EMP_CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="809" parent="69" name="EMP_NAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="810" parent="69" name="COMMENT_DETAILS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="811" parent="69" name="PRAISE_COUNT">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="812" parent="69" name="POST_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="813" parent="69" name="CREATE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="814" parent="69" name="DELETED">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="815" parent="69" name="ANONYMITY">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <key id="816" parent="69" name="PRIMARY">
+      <columns>POST_COMMENT_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="817" parent="70" name="POST_COMMENT_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="818" parent="70" name="EMP_CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="819" parent="70" name="CREATE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="820" parent="70" name="DELETED">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="821" parent="71" name="POST_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="822" parent="71" name="EMP_CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="823" parent="71" name="CREATE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="824" parent="71" name="DELETED">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="825" parent="72" name="POST_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="826" parent="72" name="EMP_CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="827" parent="72" name="CREATE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="828" parent="72" name="DELETED">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="829" parent="73" name="QUESTION_BANK_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="830" parent="73" name="QUESTION_BANK_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="831" parent="73" name="QUESTION_BANK_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(600)|0</data-type>
+    </column>
+    <column id="832" parent="73" name="FILE_PATH">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="833" parent="73" name="QUESTION_CLASSIFICATION_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="834" parent="73" name="ADMINS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="835" parent="73" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="836" parent="73" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="837" parent="73" name="LAST_OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="838" parent="73" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="839" parent="73" name="ADMIN_NAMES">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="840" parent="73" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="841" parent="73" name="LAST_OPERATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="842" parent="73" name="PRIMARY">
+      <columns>QUESTION_BANK_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="843" parent="74" name="QUESTION_CLASSIFICATION_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="844" parent="74" name="QUESTION_CLASSIFICATION_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="845" parent="74" name="QUESTION_CLASSIFICATION_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="846" parent="74" name="PARENT_CLASSIFICATION_ID">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="847" parent="74" name="QUESTION_CLASSIFICATION_ABSTRA">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="848" parent="74" name="ADMINS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="849" parent="74" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="850" parent="74" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="851" parent="74" name="LAST_OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="852" parent="74" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="853" parent="74" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="854" parent="74" name="LAST_OPERATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="855" parent="74" name="ADMIN_NAMES">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <key id="856" parent="74" name="PRIMARY">
+      <columns>QUESTION_CLASSIFICATION_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="857" parent="75" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="858" parent="75" name="EXAM_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="859" parent="75" name="SORT">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="860" parent="75" name="RETAKING_EXAM_BEGIN_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="861" parent="75" name="RETAKING_EXAM_END_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="862" parent="75" name="PRIMARY">
+      <columns>ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="863" parent="76" name="ROLE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="864" parent="76" name="ROLE_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="865" parent="76" name="ROLE_TYPE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="866" parent="76" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="867" parent="76" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="868" parent="76" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="869" parent="76" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="870" parent="76" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="871" parent="76" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="872" parent="76" name="PRIMARY">
+      <columns>ROLE_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="873" parent="77" name="ROLE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="874" parent="77" name="AUTHORITY_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="875" parent="77" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="876" parent="77" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="877" parent="77" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="878" parent="77" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="879" parent="77" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="880" parent="77" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="881" parent="78" name="ROLE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="882" parent="78" name="ROLE_TYPE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="883" parent="78" name="ROLE_SCOPE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="884" parent="78" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="885" parent="78" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="886" parent="78" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="887" parent="78" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="888" parent="78" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="889" parent="79" name="PICTURE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="890" parent="79" name="RESOURCE_ID">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="891" parent="79" name="PICTURE_CATEGORY">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="892" parent="79" name="PICTURE_URL">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="893" parent="79" name="RELEASE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="894" parent="79" name="VIEW_COUNT">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="895" parent="79" name="IS_RELEASE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="896" parent="79" name="IS_TOP">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="897" parent="79" name="ADMINS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="898" parent="79" name="CREATER">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="899" parent="79" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="900" parent="79" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="901" parent="79" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="902" parent="79" name="DELETED">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="903" parent="79" name="ADMIN_NAMES">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="904" parent="79" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="905" parent="79" name="RESOURCE_NAME">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="906" parent="79" name="RELEASER">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="907" parent="79" name="PRIMARY">
+      <columns>PICTURE_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="908" parent="80" name="PICTURE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="909" parent="80" name="EMP_CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="910" parent="80" name="EMP_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="911" parent="80" name="CREATE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="912" parent="81" name="COURSE_SECTION_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="913" parent="81" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="914" parent="81" name="CREATE_TIME">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="915" parent="81" name="LEARNING_STATES">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="916" parent="82" name="PACKAGE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="917" parent="82" name="COURSE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="918" parent="82" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="919" parent="82" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="920" parent="82" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="921" parent="82" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="922" parent="82" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="923" parent="82" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="924" parent="82" name="PRIMARY">
+      <columns>PACKAGE_ID
+COURSE_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="925" parent="83" name="PACKAGE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="926" parent="83" name="EXAM_PAPER_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="927" parent="83" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="928" parent="83" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="929" parent="83" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="930" parent="83" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="931" parent="83" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="932" parent="83" name="PRIMARY">
+      <columns>PACKAGE_ID
+EXAM_PAPER_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="933" parent="84" name="PACKAGE_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="934" parent="84" name="PACKAGE_NUMBER">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="935" parent="84" name="PACKAGE_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="936" parent="84" name="ADMINS">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="937" parent="84" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="938" parent="84" name="CREATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="939" parent="84" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="940" parent="84" name="OPERATOR">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="941" parent="84" name="UPDATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="942" parent="84" name="ADMIN_NAMES">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="943" parent="84" name="CREATOR_ID">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="944" parent="84" name="TASK_COUNT">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="945" parent="84" name="PACKAGE_NAME_EN">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <key id="946" parent="84" name="PRIMARY">
+      <columns>PACKAGE_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="947" parent="85" name="test_id">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="948" parent="85" name="test_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="949" parent="85" name="course_id">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="950" parent="85" name="test_user_id">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="951" parent="85" name="test_user_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="952" parent="85" name="test_question_id">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="953" parent="85" name="test_question_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="954" parent="85" name="test_start_time">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="955" parent="85" name="test_end_time">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="956" parent="85" name="test_user_answer">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <key id="957" parent="85" name="PRIMARY">
+      <columns>test_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="958" parent="86" name="TOPIC_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="959" parent="86" name="TOPIC_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="960" parent="86" name="QUESTION_BANK_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="961" parent="86" name="QUESTION_TYPE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="962" parent="86" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="963" parent="86" name="PRIMARY">
+      <columns>TOPIC_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="964" parent="87" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="965" parent="87" name="OPTION_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="966" parent="87" name="TOPIC_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="967" parent="87" name="CREATE_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="968" parent="87" name="RIGHTS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <key id="969" parent="87" name="PRIMARY">
+      <columns>ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="970" parent="88" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="971" parent="88" name="HEAD_IMG">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="972" parent="88" name="CONTINUOUS_SIGN_IN_NUMBER">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="973" parent="88" name="LAST_SIGN_IN_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="974" parent="88" name="COURSE_NUMBER">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="975" parent="88" name="LEARNING_TIME">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="976" parent="88" name="E_NUMBER">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="977" parent="88" name="SUM_SIGN_IN_TIMES">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="978" parent="88" name="ADDRESS">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="979" parent="88" name="ADD_UP_E_NUMBER">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="980" parent="88" name="PHONE_NUMBER">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="981" parent="88" name="NAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="982" parent="88" name="SEX">
+      <data-type>varchar(19)|0</data-type>
+    </column>
+    <column id="983" parent="88" name="ANONYMITY">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="984" parent="88" name="STATUS">
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <index id="985" parent="88" name="INFO_CODE_UNIQUE">
+      <columns>CODE</columns>
+      <desc-columns />
+      <unique>1</unique>
+    </index>
+    <index id="986" parent="88" name="UN_MOBILE_INFO">
+      <columns>PHONE_NUMBER</columns>
+      <desc-columns />
+      <unique>1</unique>
+    </index>
+    <key id="987" parent="88" name="INFO_CODE_UNIQUE">
+      <columns>CODE</columns>
+      <underlying-index>INFO_CODE_UNIQUE</underlying-index>
+    </key>
+    <key id="988" parent="88" name="UN_MOBILE_INFO">
+      <columns>PHONE_NUMBER</columns>
+      <underlying-index>UN_MOBILE_INFO</underlying-index>
+    </key>
+    <column id="989" parent="89" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="990" parent="89" name="NAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="991" parent="89" name="PASSWORD">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="992" parent="89" name="EMAIL">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="993" parent="89" name="PHONE">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="994" parent="89" name="STATUS">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+    </column>
+    <column id="995" parent="89" name="TOKEN">
+      <data-type>varchar(40)|0</data-type>
+    </column>
+    <column id="996" parent="89" name="VALIDITY">
+      <data-type>datetime|0</data-type>
+    </column>
+    <index id="997" parent="89" name="CODE_UNIQUE">
+      <columns>CODE</columns>
+      <desc-columns />
+      <unique>1</unique>
+    </index>
+    <index id="998" parent="89" name="UN_MOBILE_LOG">
+      <columns>PHONE</columns>
+      <desc-columns />
+      <unique>1</unique>
+    </index>
+    <key id="999" parent="89" name="CODE_UNIQUE">
+      <columns>CODE</columns>
+      <underlying-index>CODE_UNIQUE</underlying-index>
+    </key>
+    <key id="1000" parent="89" name="UN_MOBILE_LOG">
+      <columns>PHONE</columns>
+      <underlying-index>UN_MOBILE_LOG</underlying-index>
+    </key>
+    <column id="1001" parent="90" name="ACTIVITY_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+      <default-expression>'0'</default-expression>
+    </column>
+    <column id="1002" parent="90" name="ACTIVITY_NAME">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="1003" parent="90" name="ACTIVITY_START_TIME">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="1004" parent="90" name="ALL_FEE">
+      <data-type>double(19,2)|0</data-type>
+    </column>
+    <column id="1005" parent="91" name="EXAM_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="1006" parent="91" name="CODE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="1007" parent="91" name="EMP_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="1008" parent="91" name="MOBILE">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="1009" parent="91" name="EMAIL">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="1010" parent="91" name="ONEDEPTNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="1011" parent="91" name="DEPTNAME">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="1012" parent="91" name="TOTAL_POINTS">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="1013" parent="91" name="GRADE_STATE">
+      <mandatory>1</mandatory>
+      <data-type>varchar(301)|0</data-type>
+    </column>
+    <column id="1014" parent="91" name="EXAM_COUNT">
+      <mandatory>1</mandatory>
+      <data-type>int(8)|0</data-type>
+    </column>
+  </database-model>
+</dataSource>
