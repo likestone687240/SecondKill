@@ -12,5 +12,16 @@
       <introspection-scope>ue:</introspection-scope>
       <resolve-scope>ue:</resolve-scope>
     </data-source>
+    <data-source name="MySQL - seckill@localhost" uuid="5c824705-83ba-4d11-be6a-88f6c8a2fad3">
+      <database-info product="MySQL" version="5.7.17" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>seckill:</introspection-scope>
+      <resolve-scope>seckill:</resolve-scope>
+    </data-source>
   </component>
 </project>

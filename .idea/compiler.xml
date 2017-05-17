@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="seckill" />
         <module name="secondkill" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="seckill" target="1.5" />
       <module name="secondkill" target="1.5" />
     </bytecodeTargetLevel>
   </component>

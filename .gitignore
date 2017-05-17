@@ -1,1 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
+target/classes/org/seckill/web/SeckillController.class
+target/classes/spring/spring-web.xml
+target/seckill/seckill.war
+*.class
+target/
+out/

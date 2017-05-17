@@ -11,6 +11,15 @@ public class Seckill {
     private Date startTime;
     private Date endTime;
     private Date createTime;
+    private int number;
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
 
     public long getSeckillId() {
         return seckillId;

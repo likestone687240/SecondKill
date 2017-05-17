@@ -34,6 +34,7 @@ public class SeckillExecution {
         this.successKilled = successKilled;
     }
 
+
     public long getSeckillId() {
         return seckillId;
     }
